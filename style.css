@@ -1,0 +1,32 @@
+/*Main Body of Calculator*/
+div{ width: 350px;
+      height: 575px;
+      border-radius: 15px;
+      background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+     border: 1px solid black;}
+ /* Display of Calculator*/
+ .dis { width: 315px;
+       height: 70px;
+       border: none;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       border-radius: 15px;
+       background-color: grey;
+       color: white;
+       font-size: 50px;}
+ /* Operator Button and attributes*/
+ .pink{ background: linear-gradient(to bottom, #ff3399 0%, #ff9966 100%);}
+ .pink:hover{ background: linear-gradient(to bottom, #ff3399 0%, #ff9966 50%);}
+ /* This is for buttons having number*/
+ button{ background: linear-gradient(to bottom, #ffff00 0%, #ff9900 100%);
+         width: 75px;
+         height: 75px;
+         border: 3px solid black;
+         border-radius: 100%;
+         cursor: pointer;
+         align-self: center;
+         font-size: 40px;
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: bold;}
+ button:hover{ background: linear-gradient(to bottom, #ffff00 0%, #ff9900 50%);}
+ /*For background color*/
+ body{ background: linear-gradient(to left, #00ccff 0%, #ff99ff 100%);}
